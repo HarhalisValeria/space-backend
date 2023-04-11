@@ -24,6 +24,6 @@ public class Movie {
     private List<String> genres;
     private String poster;
     private List<String> backdrops;
-    @DocumentReference  //cause db to store only the ids and the actual reviews
+    @DocumentReference  //cause db to store only the id references and the actual reviews
     private List<Review> reviewIds;
 }
